@@ -1,12 +1,3 @@
 name = "ai-competition-voting-platform"
 compatibility_date = "2025-01-06"
-
-[env.production]
-name = "ai-competition-voting-platform"
-
-[[env.production.routes]]
-pattern = "*"
-
-[site]
-bucket = "./dist"
-entry-point = "workers-site"
+pages_build_output_dir = "dist"
